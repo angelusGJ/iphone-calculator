@@ -31,43 +31,6 @@
     calculator = nil;
 }
 
-- (void) testShouldReturnTwoWhenAddOnePlusOne {
-
-    STAssertEqualObjects([NSNumber numberWithInt:2], [calculator add:@1 secondSummand:@1], @"one plus one equals two");
-}
-
-- (void) testShouldReturnThreeWhenAddOnePlusTwo {
-    
-    STAssertEqualObjects([NSNumber numberWithInt:3], [calculator add:@1 secondSummand:@2], @"one plus two equals three");
-}
-
-- (void) testShouldReturnTwoWhenSubtractFourMinusOne {
-    
-    STAssertEqualObjects([NSNumber numberWithInt:2], [calculator subtract:@4 subtrahend:@2], @"four minus two equals two");
-}
-
-- (void) testShouldReturnThreeWhenSubtractFivePlusTwo {
-    
-    STAssertEqualObjects([NSNumber numberWithInt:3], [calculator subtract:@5 subtrahend:@2], @"five minus two equals three");
-}
-
-- (void) testShouldReturnFourWhenMultiplyTwoByTwo {
-    STAssertEqualObjects([NSNumber numberWithDouble:4], [calculator multiply:@2 secondFactor:@2], @"two by two equals four");
-}
-
-- (void) testShouldReturnEightWhenMultiplyTwoByFour {
-    STAssertEqualObjects([NSNumber numberWithDouble:8], [calculator multiply:@2 secondFactor:@4], @"two by four equals eight");
-}
-
-
-- (void) testShouldReturnFourWhenDivideFourByTwo {
-    STAssertEqualObjects([NSNumber numberWithDouble:2], [calculator divide:@4 divisor:@2], @"four by two equals two");
-}
-
-- (void) testShouldReturnFourWhenDivideEightByFour {
-    STAssertEqualObjects([NSNumber numberWithDouble:4], [calculator divide:@8 divisor:@2], @"Eight by two equals four");
-}
-
 - (void) testShouldGetTheResultOfAmazonServiceWhenAddTwoNumbers {
     [self setUpMockComunicator:@2 secondOperand:@2 operator:ADD];
     
@@ -143,7 +106,7 @@
     
     [[delegate expect] didFinishOperation:@345];
     
-    [calculator resultOperation:@"345"];
+    [calculator resultOperation:@"{\"result\": 345}"];
     
     [delegate verify];
 }

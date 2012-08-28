@@ -32,31 +32,20 @@
     
 }
 
-- (NSNumber *) add:(NSNumber *)firstSummand secondSummand:(NSNumber *)secondSummand {
-    
+- (void) add:(NSNumber *)firstSummand secondSummand:(NSNumber *)secondSummand {
     [comunicator fetchingResult:firstSummand secondOperand:secondSummand operator:ADD];
-    
-    return [NSNumber numberWithDouble:[firstSummand doubleValue] + [secondSummand doubleValue]];
 }
 
-- (NSNumber *) multiply:(NSNumber *)firstFactor secondFactor:(NSNumber *)secondFactor {
-    
+- (void) multiply:(NSNumber *)firstFactor secondFactor:(NSNumber *)secondFactor {
     [comunicator fetchingResult:firstFactor secondOperand:secondFactor operator:MULTIPLY];
-    
-    return [NSNumber numberWithDouble:[firstFactor doubleValue] * [secondFactor doubleValue]];
 }
 
-- (NSNumber *) subtract:(NSNumber *)minuend subtrahend:(NSNumber *)subtrahend {
-    
+- (void) subtract:(NSNumber *)minuend subtrahend:(NSNumber *)subtrahend {
     [comunicator fetchingResult:minuend secondOperand:subtrahend operator:SUBSTRACT];
-    
-    return [NSNumber numberWithDouble:[minuend doubleValue] - [subtrahend doubleValue]];
 }
 
-- (NSNumber *)divide:(NSNumber *)dividend divisor:(NSNumber *)divisor {
+- (void)divide:(NSNumber *)dividend divisor:(NSNumber *)divisor {
     [comunicator fetchingResult:dividend secondOperand:divisor operator:DIVIDE];
-    
-    return [NSNumber numberWithDouble:[dividend doubleValue] / [divisor doubleValue]];
 }
 
 #pragma Deletegate AmazonComunicator
@@ -66,11 +55,26 @@
 }
 
 - (void)resultOperation:(NSString *)resultJSON {
-    NSNumberFormatter *formater = [[NSNumberFormatter alloc] init];
+    NSData *unicodeNotation = [resultJSON dataUsingEncoding: NSUTF8StringEncoding];
+    NSError *localError = nil;
     
-    [formater setNumberStyle:NSNumberFormatterDecimalStyle];
+    id jsonObject = [NSJSONSerialization JSONObjectWithData: unicodeNotation options: 0 error: &localError];
     
-    [delegate didFinishOperation: [formater numberFromString:resultJSON]];
+    NSDictionary *parsedObject = (id)jsonObject;
+    
+    if (parsedObject == nil) {
+        [delegate didFinishOperationWithError:localError];
+    }
+    @try {
+        NSNumber *result = [parsedObject objectForKey: @"result"];
+        [delegate didFinishOperation: result];
+    }
+    @catch (NSException *exception) {
+        NSError *error = [NSError errorWithDomain:CalculatorErrorDomain code:-1 userInfo:[exception userInfo]];
+        [delegate didFinishOperationWithError:error];
+    }
 }
 @end
+
+NSString *CalculatorErrorDomain = @"CalculatorErrorDomain";
         

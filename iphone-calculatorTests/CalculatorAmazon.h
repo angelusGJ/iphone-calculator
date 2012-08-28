@@ -16,3 +16,5 @@
 @property (readonly) id<CalculatorComunicator> comunicator;
 @property (assign) id<CalculatorDelegate> delegate;
 @end
+
+extern NSString *CalculatorErrorDomain;

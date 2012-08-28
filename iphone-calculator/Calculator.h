@@ -9,8 +9,8 @@
 #import <Foundation/Foundation.h>
 
 @protocol Calculator <NSObject>
-- (NSNumber *) add:(NSNumber*)firstSummand secondSummand: (NSNumber *) secondSummand;
-- (NSNumber *) multiply:(NSNumber*)firstFactor secondFactor: (NSNumber *) secondFactor;
-- (NSNumber *) subtract:(NSNumber*)minuend subtrahend: (NSNumber *) subtrahend;
-- (NSNumber *) divide:(NSNumber*)dividend divisor: (NSNumber *) divisor;
+- (void) add:(NSNumber*)firstSummand secondSummand: (NSNumber *) secondSummand;
+- (void) multiply:(NSNumber*)firstFactor secondFactor: (NSNumber *) secondFactor;
+- (void) subtract:(NSNumber*)minuend subtrahend: (NSNumber *) subtrahend;
+- (void) divide:(NSNumber*)dividend divisor: (NSNumber *) divisor;
 @end

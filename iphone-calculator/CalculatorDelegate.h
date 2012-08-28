@@ -9,6 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @protocol CalculatorDelegate <NSObject>
--  (void) didFinishOperationWithError:(NSError *)error;
+- (void) didFinishOperationWithError:(NSError *)error;
 - (void) didFinishOperation:(NSNumber*) result;
 @end

@@ -7,19 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A746B40B15EBF06500B5ADED /* CalculatorComunicatorAmazon.m in Sources */ = {isa = PBXBuildFile; fileRef = A7687BC515EB4F3300D25C96 /* CalculatorComunicatorAmazon.m */; };
+		A746B45615EC059E00B5ADED /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A746B45515EC059E00B5ADED /* MBProgressHUD.m */; };
+		A746B45A15EC0CB900B5ADED /* CalculatorStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A746B45915EC0CB900B5ADED /* CalculatorStoryboard.storyboard */; };
+		A746B46115EC108600B5ADED /* CalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A746B46015EC108500B5ADED /* CalculatorViewController.m */; };
+		A746B46415EC1AFB00B5ADED /* CalculatorViewControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A746B46315EC1AFB00B5ADED /* CalculatorViewControllerTest.m */; };
+		A746B46515EC1B1500B5ADED /* CalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A746B46015EC108500B5ADED /* CalculatorViewController.m */; };
 		A75FDE3E15E770EF00618187 /* CalculatorAmazon.m in Sources */ = {isa = PBXBuildFile; fileRef = A75FDE3D15E770EF00618187 /* CalculatorAmazon.m */; };
 		A75FDE3F15E770EF00618187 /* CalculatorAmazon.m in Sources */ = {isa = PBXBuildFile; fileRef = A75FDE3D15E770EF00618187 /* CalculatorAmazon.m */; };
 		A7687BC115EB4DD200D25C96 /* CalculatorComunicatorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A7687BC015EB4DD200D25C96 /* CalculatorComunicatorTest.m */; };
 		A7687BC615EB4F3300D25C96 /* CalculatorComunicatorAmazon.m in Sources */ = {isa = PBXBuildFile; fileRef = A7687BC515EB4F3300D25C96 /* CalculatorComunicatorAmazon.m */; };
 		A7687BC915EB56BF00D25C96 /* CalculatorComunicatorMock.m in Sources */ = {isa = PBXBuildFile; fileRef = A7687BC815EB56BF00D25C96 /* CalculatorComunicatorMock.m */; };
+		A78187D115ECD05800B3F1F5 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A78187C615ECD05800B3F1F5 /* README.md */; };
+		A78187D215ECD05800B3F1F5 /* ci.js in Sources */ = {isa = PBXBuildFile; fileRef = A78187C715ECD05800B3F1F5 /* ci.js */; };
+		A78187D315ECD05800B3F1F5 /* jasmine-main-thread.js in Sources */ = {isa = PBXBuildFile; fileRef = A78187C915ECD05800B3F1F5 /* jasmine-main-thread.js */; };
+		A78187D415ECD05800B3F1F5 /* jasmine-uiautomation.js in Sources */ = {isa = PBXBuildFile; fileRef = A78187CB15ECD05800B3F1F5 /* jasmine-uiautomation.js */; };
+		A78187D515ECD05800B3F1F5 /* jasmine.uiautomation_junit_reporter.js in Sources */ = {isa = PBXBuildFile; fileRef = A78187CD15ECD05800B3F1F5 /* jasmine.uiautomation_junit_reporter.js */; };
+		A78187D615ECD05800B3F1F5 /* runTests.sh in Resources */ = {isa = PBXBuildFile; fileRef = A78187CE15ECD05800B3F1F5 /* runTests.sh */; };
+		A78187D715ECD05800B3F1F5 /* calculator-test.js in Sources */ = {isa = PBXBuildFile; fileRef = A78187D015ECD05800B3F1F5 /* calculator-test.js */; };
+		A78187EB15ECD26000B3F1F5 /* env.rhino.1.2.js in Sources */ = {isa = PBXBuildFile; fileRef = A78187E515ECD26000B3F1F5 /* env.rhino.1.2.js */; };
+		A78187EC15ECD26000B3F1F5 /* jasmine-html.js in Sources */ = {isa = PBXBuildFile; fileRef = A78187E615ECD26000B3F1F5 /* jasmine-html.js */; };
+		A78187ED15ECD26000B3F1F5 /* jasmine.css in Resources */ = {isa = PBXBuildFile; fileRef = A78187E715ECD26000B3F1F5 /* jasmine.css */; };
+		A78187EE15ECD26000B3F1F5 /* jasmine.js in Sources */ = {isa = PBXBuildFile; fileRef = A78187E815ECD26000B3F1F5 /* jasmine.js */; };
+		A78187EF15ECD26000B3F1F5 /* jline.jar in Frameworks */ = {isa = PBXBuildFile; fileRef = A78187E915ECD26000B3F1F5 /* jline.jar */; };
+		A78187F015ECD26000B3F1F5 /* js.jar in Frameworks */ = {isa = PBXBuildFile; fileRef = A78187EA15ECD26000B3F1F5 /* js.jar */; };
 		A7B2BF4A15E76719009E6ED4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B2BF4915E76719009E6ED4 /* UIKit.framework */; };
 		A7B2BF4C15E76719009E6ED4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B2BF4B15E76719009E6ED4 /* Foundation.framework */; };
 		A7B2BF4E15E76719009E6ED4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B2BF4D15E76719009E6ED4 /* CoreGraphics.framework */; };
 		A7B2BF5415E76719009E6ED4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A7B2BF5215E76719009E6ED4 /* InfoPlist.strings */; };
 		A7B2BF5615E76719009E6ED4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B2BF5515E76719009E6ED4 /* main.m */; };
 		A7B2BF5A15E76719009E6ED4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B2BF5915E76719009E6ED4 /* AppDelegate.m */; };
-		A7B2BF5D15E76719009E6ED4 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7B2BF5B15E76719009E6ED4 /* MainStoryboard.storyboard */; };
-		A7B2BF6015E76719009E6ED4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B2BF5F15E76719009E6ED4 /* ViewController.m */; };
 		A7B2BF6815E76719009E6ED4 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B2BF6715E76719009E6ED4 /* SenTestingKit.framework */; };
 		A7B2BF6915E76719009E6ED4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B2BF4915E76719009E6ED4 /* UIKit.framework */; };
 		A7B2BF6A15E76719009E6ED4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B2BF4B15E76719009E6ED4 /* Foundation.framework */; };
@@ -27,6 +44,7 @@
 		A7B2BF9115E7682A009E6ED4 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B2BF9015E7682A009E6ED4 /* libOCMock.a */; };
 		A7B2BF9215E76840009E6ED4 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B2BF9015E7682A009E6ED4 /* libOCMock.a */; };
 		A7B2BF9815E76B43009E6ED4 /* CalculatorAmazonTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B2BF9715E76B43009E6ED4 /* CalculatorAmazonTest.m */; };
+		A7F0BE1115EC98D400006E33 /* CalculatorViewControllerMock.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F0BE1015EC98D400006E33 /* CalculatorViewControllerMock.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +59,12 @@
 
 /* Begin PBXFileReference section */
 		A746B40615EBEC3300B5ADED /* CalculatorDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculatorDelegate.h; sourceTree = "<group>"; };
+		A746B45415EC059E00B5ADED /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		A746B45515EC059E00B5ADED /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		A746B45915EC0CB900B5ADED /* CalculatorStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CalculatorStoryboard.storyboard; sourceTree = "<group>"; };
+		A746B45F15EC108500B5ADED /* CalculatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorViewController.h; sourceTree = "<group>"; };
+		A746B46015EC108500B5ADED /* CalculatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorViewController.m; sourceTree = "<group>"; };
+		A746B46315EC1AFB00B5ADED /* CalculatorViewControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorViewControllerTest.m; sourceTree = "<group>"; };
 		A75FDE3C15E770EF00618187 /* CalculatorAmazon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CalculatorAmazon.h; path = "iphone-calculatorTests/CalculatorAmazon.h"; sourceTree = SOURCE_ROOT; };
 		A75FDE3D15E770EF00618187 /* CalculatorAmazon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CalculatorAmazon.m; path = "iphone-calculatorTests/CalculatorAmazon.m"; sourceTree = SOURCE_ROOT; };
 		A75FDE4515E93A3000618187 /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
@@ -51,6 +75,19 @@
 		A7687BC515EB4F3300D25C96 /* CalculatorComunicatorAmazon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorComunicatorAmazon.m; sourceTree = "<group>"; };
 		A7687BC715EB56BF00D25C96 /* CalculatorComunicatorMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorComunicatorMock.h; sourceTree = "<group>"; };
 		A7687BC815EB56BF00D25C96 /* CalculatorComunicatorMock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorComunicatorMock.m; sourceTree = "<group>"; };
+		A78187C615ECD05800B3F1F5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		A78187C715ECD05800B3F1F5 /* ci.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ci.js; sourceTree = "<group>"; };
+		A78187C915ECD05800B3F1F5 /* jasmine-main-thread.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "jasmine-main-thread.js"; sourceTree = "<group>"; };
+		A78187CB15ECD05800B3F1F5 /* jasmine-uiautomation.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "jasmine-uiautomation.js"; sourceTree = "<group>"; };
+		A78187CD15ECD05800B3F1F5 /* jasmine.uiautomation_junit_reporter.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jasmine.uiautomation_junit_reporter.js; sourceTree = "<group>"; };
+		A78187CE15ECD05800B3F1F5 /* runTests.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = runTests.sh; sourceTree = "<group>"; };
+		A78187D015ECD05800B3F1F5 /* calculator-test.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "calculator-test.js"; sourceTree = "<group>"; };
+		A78187E515ECD26000B3F1F5 /* env.rhino.1.2.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = env.rhino.1.2.js; sourceTree = "<group>"; };
+		A78187E615ECD26000B3F1F5 /* jasmine-html.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "jasmine-html.js"; sourceTree = "<group>"; };
+		A78187E715ECD26000B3F1F5 /* jasmine.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = jasmine.css; sourceTree = "<group>"; };
+		A78187E815ECD26000B3F1F5 /* jasmine.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jasmine.js; sourceTree = "<group>"; };
+		A78187E915ECD26000B3F1F5 /* jline.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; path = jline.jar; sourceTree = "<group>"; };
+		A78187EA15ECD26000B3F1F5 /* js.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; path = js.jar; sourceTree = "<group>"; };
 		A7B2BF4515E76719009E6ED4 /* iphone-calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iphone-calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7B2BF4915E76719009E6ED4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A7B2BF4B15E76719009E6ED4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -61,9 +98,6 @@
 		A7B2BF5715E76719009E6ED4 /* iphone-calculator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iphone-calculator-Prefix.pch"; sourceTree = "<group>"; };
 		A7B2BF5815E76719009E6ED4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A7B2BF5915E76719009E6ED4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A7B2BF5C15E76719009E6ED4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		A7B2BF5E15E76719009E6ED4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A7B2BF5F15E76719009E6ED4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A7B2BF6615E76719009E6ED4 /* iphone-calculatorTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iphone-calculatorTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7B2BF6715E76719009E6ED4 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		A7B2BF6F15E76719009E6ED4 /* iphone-calculatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iphone-calculatorTests-Info.plist"; sourceTree = "<group>"; };
@@ -76,6 +110,8 @@
 		A7B2BF8F15E76824009E6ED4 /* OCMockRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockRecorder.h; sourceTree = "<group>"; };
 		A7B2BF9015E7682A009E6ED4 /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOCMock.a; sourceTree = "<group>"; };
 		A7B2BF9715E76B43009E6ED4 /* CalculatorAmazonTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorAmazonTest.m; sourceTree = "<group>"; };
+		A7F0BE1015EC98D400006E33 /* CalculatorViewControllerMock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorViewControllerMock.m; sourceTree = "<group>"; };
+		A7F0BE1315EC9C1900006E33 /* CalculatorViewControllerMock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculatorViewControllerMock.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,12 +134,83 @@
 				A7B2BF6815E76719009E6ED4 /* SenTestingKit.framework in Frameworks */,
 				A7B2BF6915E76719009E6ED4 /* UIKit.framework in Frameworks */,
 				A7B2BF6A15E76719009E6ED4 /* Foundation.framework in Frameworks */,
+				A78187EF15ECD26000B3F1F5 /* jline.jar in Frameworks */,
+				A78187F015ECD26000B3F1F5 /* js.jar in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A746B45315EC059E00B5ADED /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				A746B45415EC059E00B5ADED /* MBProgressHUD.h */,
+				A746B45515EC059E00B5ADED /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		A78187C515ECD05800B3F1F5 /* TestUI */ = {
+			isa = PBXGroup;
+			children = (
+				A78187C615ECD05800B3F1F5 /* README.md */,
+				A78187C715ECD05800B3F1F5 /* ci.js */,
+				A78187C815ECD05800B3F1F5 /* ext */,
+				A78187CC15ECD05800B3F1F5 /* reporter */,
+				A78187CE15ECD05800B3F1F5 /* runTests.sh */,
+				A78187CF15ECD05800B3F1F5 /* specs */,
+			);
+			path = TestUI;
+			sourceTree = "<group>";
+		};
+		A78187C815ECD05800B3F1F5 /* ext */ = {
+			isa = PBXGroup;
+			children = (
+				A78187C915ECD05800B3F1F5 /* jasmine-main-thread.js */,
+				A78187CA15ECD05800B3F1F5 /* jasmine-reporters */,
+				A78187CB15ECD05800B3F1F5 /* jasmine-uiautomation.js */,
+			);
+			path = ext;
+			sourceTree = "<group>";
+		};
+		A78187CA15ECD05800B3F1F5 /* jasmine-reporters */ = {
+			isa = PBXGroup;
+			children = (
+				A78187E415ECD26000B3F1F5 /* ext */,
+			);
+			path = "jasmine-reporters";
+			sourceTree = "<group>";
+		};
+		A78187CC15ECD05800B3F1F5 /* reporter */ = {
+			isa = PBXGroup;
+			children = (
+				A78187CD15ECD05800B3F1F5 /* jasmine.uiautomation_junit_reporter.js */,
+			);
+			path = reporter;
+			sourceTree = "<group>";
+		};
+		A78187CF15ECD05800B3F1F5 /* specs */ = {
+			isa = PBXGroup;
+			children = (
+				A78187D015ECD05800B3F1F5 /* calculator-test.js */,
+			);
+			path = specs;
+			sourceTree = "<group>";
+		};
+		A78187E415ECD26000B3F1F5 /* ext */ = {
+			isa = PBXGroup;
+			children = (
+				A78187E515ECD26000B3F1F5 /* env.rhino.1.2.js */,
+				A78187E615ECD26000B3F1F5 /* jasmine-html.js */,
+				A78187E715ECD26000B3F1F5 /* jasmine.css */,
+				A78187E815ECD26000B3F1F5 /* jasmine.js */,
+				A78187E915ECD26000B3F1F5 /* jline.jar */,
+				A78187EA15ECD26000B3F1F5 /* js.jar */,
+			);
+			path = ext;
+			sourceTree = "<group>";
+		};
 		A7B2BF3A15E76719009E6ED4 = {
 			isa = PBXGroup;
 			children = (
@@ -142,9 +249,6 @@
 				A75FDE3C15E770EF00618187 /* CalculatorAmazon.h */,
 				A75FDE3D15E770EF00618187 /* CalculatorAmazon.m */,
 				A7B2BF5915E76719009E6ED4 /* AppDelegate.m */,
-				A7B2BF5B15E76719009E6ED4 /* MainStoryboard.storyboard */,
-				A7B2BF5E15E76719009E6ED4 /* ViewController.h */,
-				A7B2BF5F15E76719009E6ED4 /* ViewController.m */,
 				A7B2BF5015E76719009E6ED4 /* Supporting Files */,
 				A75FDE4515E93A3000618187 /* Calculator.h */,
 				A75FDE4615EA92E900618187 /* CalculatorComunicator.h */,
@@ -152,6 +256,9 @@
 				A7687BC415EB4F3300D25C96 /* CalculatorComunicatorAmazon.h */,
 				A7687BC515EB4F3300D25C96 /* CalculatorComunicatorAmazon.m */,
 				A746B40615EBEC3300B5ADED /* CalculatorDelegate.h */,
+				A746B45915EC0CB900B5ADED /* CalculatorStoryboard.storyboard */,
+				A746B45F15EC108500B5ADED /* CalculatorViewController.h */,
+				A746B46015EC108500B5ADED /* CalculatorViewController.m */,
 			);
 			path = "iphone-calculator";
 			sourceTree = "<group>";
@@ -170,11 +277,15 @@
 		A7B2BF6D15E76719009E6ED4 /* iphone-calculatorTests */ = {
 			isa = PBXGroup;
 			children = (
+				A78187C515ECD05800B3F1F5 /* TestUI */,
 				A7B2BF6E15E76719009E6ED4 /* Supporting Files */,
 				A7B2BF9715E76B43009E6ED4 /* CalculatorAmazonTest.m */,
 				A7687BC015EB4DD200D25C96 /* CalculatorComunicatorTest.m */,
 				A7687BC715EB56BF00D25C96 /* CalculatorComunicatorMock.h */,
 				A7687BC815EB56BF00D25C96 /* CalculatorComunicatorMock.m */,
+				A746B46315EC1AFB00B5ADED /* CalculatorViewControllerTest.m */,
+				A7F0BE1315EC9C1900006E33 /* CalculatorViewControllerMock.h */,
+				A7F0BE1015EC98D400006E33 /* CalculatorViewControllerMock.m */,
 			);
 			path = "iphone-calculatorTests";
 			sourceTree = "<group>";
@@ -200,6 +311,7 @@
 		A7B2BF8715E767E1009E6ED4 /* include */ = {
 			isa = PBXGroup;
 			children = (
+				A746B45315EC059E00B5ADED /* MBProgressHUD */,
 				A7B2BF8915E76824009E6ED4 /* OCMock */,
 			);
 			path = include;
@@ -298,7 +410,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7B2BF5415E76719009E6ED4 /* InfoPlist.strings in Resources */,
-				A7B2BF5D15E76719009E6ED4 /* MainStoryboard.storyboard in Resources */,
+				A746B45A15EC0CB900B5ADED /* CalculatorStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +419,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7B2BF7215E76719009E6ED4 /* InfoPlist.strings in Resources */,
+				A78187D115ECD05800B3F1F5 /* README.md in Resources */,
+				A78187D615ECD05800B3F1F5 /* runTests.sh in Resources */,
+				A78187ED15ECD26000B3F1F5 /* jasmine.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,9 +450,10 @@
 			files = (
 				A7B2BF5615E76719009E6ED4 /* main.m in Sources */,
 				A7B2BF5A15E76719009E6ED4 /* AppDelegate.m in Sources */,
-				A7B2BF6015E76719009E6ED4 /* ViewController.m in Sources */,
 				A75FDE3E15E770EF00618187 /* CalculatorAmazon.m in Sources */,
 				A7687BC615EB4F3300D25C96 /* CalculatorComunicatorAmazon.m in Sources */,
+				A746B45615EC059E00B5ADED /* MBProgressHUD.m in Sources */,
+				A746B46115EC108600B5ADED /* CalculatorViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +465,18 @@
 				A75FDE3F15E770EF00618187 /* CalculatorAmazon.m in Sources */,
 				A7687BC115EB4DD200D25C96 /* CalculatorComunicatorTest.m in Sources */,
 				A7687BC915EB56BF00D25C96 /* CalculatorComunicatorMock.m in Sources */,
+				A746B40B15EBF06500B5ADED /* CalculatorComunicatorAmazon.m in Sources */,
+				A746B46415EC1AFB00B5ADED /* CalculatorViewControllerTest.m in Sources */,
+				A746B46515EC1B1500B5ADED /* CalculatorViewController.m in Sources */,
+				A7F0BE1115EC98D400006E33 /* CalculatorViewControllerMock.m in Sources */,
+				A78187D215ECD05800B3F1F5 /* ci.js in Sources */,
+				A78187D315ECD05800B3F1F5 /* jasmine-main-thread.js in Sources */,
+				A78187D415ECD05800B3F1F5 /* jasmine-uiautomation.js in Sources */,
+				A78187D515ECD05800B3F1F5 /* jasmine.uiautomation_junit_reporter.js in Sources */,
+				A78187D715ECD05800B3F1F5 /* calculator-test.js in Sources */,
+				A78187EB15ECD26000B3F1F5 /* env.rhino.1.2.js in Sources */,
+				A78187EC15ECD26000B3F1F5 /* jasmine-html.js in Sources */,
+				A78187EE15ECD26000B3F1F5 /* jasmine.js in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,14 +497,6 @@
 				A7B2BF5315E76719009E6ED4 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		A7B2BF5B15E76719009E6ED4 /* MainStoryboard.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A7B2BF5C15E76719009E6ED4 /* en */,
-			);
-			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
 		};
 		A7B2BF7015E76719009E6ED4 /* InfoPlist.strings */ = {
@@ -444,6 +564,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iphone-calculator/iphone-calculator-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"${SRCROOT}\"/usr/include/\"/**";
 				INFOPLIST_FILE = "iphone-calculator/iphone-calculator-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -459,6 +580,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iphone-calculator/iphone-calculator-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"${SRCROOT}\"/usr/include/\"/**";
 				INFOPLIST_FILE = "iphone-calculator/iphone-calculator-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -553,6 +675,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iphone-calculator/iphone-calculator-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"${SRCROOT}\"/usr/include/\"/**";
 				INFOPLIST_FILE = "iphone-calculator/iphone-calculator-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
