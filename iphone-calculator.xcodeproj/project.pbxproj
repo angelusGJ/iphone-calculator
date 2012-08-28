@@ -13,6 +13,7 @@
 		A746B46115EC108600B5ADED /* CalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A746B46015EC108500B5ADED /* CalculatorViewController.m */; };
 		A746B46415EC1AFB00B5ADED /* CalculatorViewControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A746B46315EC1AFB00B5ADED /* CalculatorViewControllerTest.m */; };
 		A746B46515EC1B1500B5ADED /* CalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A746B46015EC108500B5ADED /* CalculatorViewController.m */; };
+		A74C106015ECE5B500897C99 /* WorkaroundTests.c in Sources */ = {isa = PBXBuildFile; fileRef = A74C105F15ECE5B500897C99 /* WorkaroundTests.c */; };
 		A75FDE3E15E770EF00618187 /* CalculatorAmazon.m in Sources */ = {isa = PBXBuildFile; fileRef = A75FDE3D15E770EF00618187 /* CalculatorAmazon.m */; };
 		A75FDE3F15E770EF00618187 /* CalculatorAmazon.m in Sources */ = {isa = PBXBuildFile; fileRef = A75FDE3D15E770EF00618187 /* CalculatorAmazon.m */; };
 		A7687BC115EB4DD200D25C96 /* CalculatorComunicatorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A7687BC015EB4DD200D25C96 /* CalculatorComunicatorTest.m */; };
@@ -65,6 +66,7 @@
 		A746B45F15EC108500B5ADED /* CalculatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorViewController.h; sourceTree = "<group>"; };
 		A746B46015EC108500B5ADED /* CalculatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorViewController.m; sourceTree = "<group>"; };
 		A746B46315EC1AFB00B5ADED /* CalculatorViewControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorViewControllerTest.m; sourceTree = "<group>"; };
+		A74C105F15ECE5B500897C99 /* WorkaroundTests.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = WorkaroundTests.c; sourceTree = "<group>"; };
 		A75FDE3C15E770EF00618187 /* CalculatorAmazon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CalculatorAmazon.h; path = "iphone-calculatorTests/CalculatorAmazon.h"; sourceTree = SOURCE_ROOT; };
 		A75FDE3D15E770EF00618187 /* CalculatorAmazon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CalculatorAmazon.m; path = "iphone-calculatorTests/CalculatorAmazon.m"; sourceTree = SOURCE_ROOT; };
 		A75FDE4515E93A3000618187 /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
@@ -286,6 +288,7 @@
 				A746B46315EC1AFB00B5ADED /* CalculatorViewControllerTest.m */,
 				A7F0BE1315EC9C1900006E33 /* CalculatorViewControllerMock.h */,
 				A7F0BE1015EC98D400006E33 /* CalculatorViewControllerMock.m */,
+				A74C105F15ECE5B500897C99 /* WorkaroundTests.c */,
 			);
 			path = "iphone-calculatorTests";
 			sourceTree = "<group>";
@@ -477,6 +480,7 @@
 				A78187EB15ECD26000B3F1F5 /* env.rhino.1.2.js in Sources */,
 				A78187EC15ECD26000B3F1F5 /* jasmine-html.js in Sources */,
 				A78187EE15ECD26000B3F1F5 /* jasmine.js in Sources */,
+				A74C106015ECE5B500897C99 /* WorkaroundTests.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
