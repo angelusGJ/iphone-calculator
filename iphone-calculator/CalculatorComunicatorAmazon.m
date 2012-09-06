@@ -23,7 +23,7 @@
 }
 
 - (void) fetchingResult:(NSNumber *) firstOperand secondOperand: (NSNumber *) secondOperand operator: (enum Operator) operator {
-    [self fetchResultAtURL:[NSURL URLWithString:[NSString stringWithFormat:@"http://ec2-46-137-55-14.eu-west-1.compute.amazonaws.com:8080/demo-ws-spring-mvc/rest/calc/%.02f/%.02f/%d", [firstOperand doubleValue], [secondOperand doubleValue], operator]]];
+    [self fetchResultAtURL:[NSURL URLWithString:[NSString stringWithFormat:@"http://ec2-54-247-37-1.eu-west-1.compute.amazonaws.com:8080/demo-ws-spring-mvc/rest/calc/%.02f/%.02f/%d", [firstOperand doubleValue], [secondOperand doubleValue], operator]]];
 }
 
 - (void)lauchConnectionForRequest:(NSURLRequest *)request {

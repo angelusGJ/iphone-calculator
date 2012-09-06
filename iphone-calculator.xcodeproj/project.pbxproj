@@ -32,6 +32,7 @@
 		A78187EE15ECD26000B3F1F5 /* jasmine.js in Sources */ = {isa = PBXBuildFile; fileRef = A78187E815ECD26000B3F1F5 /* jasmine.js */; };
 		A78187EF15ECD26000B3F1F5 /* jline.jar in Frameworks */ = {isa = PBXBuildFile; fileRef = A78187E915ECD26000B3F1F5 /* jline.jar */; };
 		A78187F015ECD26000B3F1F5 /* js.jar in Frameworks */ = {isa = PBXBuildFile; fileRef = A78187EA15ECD26000B3F1F5 /* js.jar */; };
+		A7A23DF015ED53E100A8B86C /* WorkaroundTests.c in Sources */ = {isa = PBXBuildFile; fileRef = A74C105F15ECE5B500897C99 /* WorkaroundTests.c */; };
 		A7B2BF4A15E76719009E6ED4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B2BF4915E76719009E6ED4 /* UIKit.framework */; };
 		A7B2BF4C15E76719009E6ED4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B2BF4B15E76719009E6ED4 /* Foundation.framework */; };
 		A7B2BF4E15E76719009E6ED4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B2BF4D15E76719009E6ED4 /* CoreGraphics.framework */; };
@@ -457,6 +458,7 @@
 				A7687BC615EB4F3300D25C96 /* CalculatorComunicatorAmazon.m in Sources */,
 				A746B45615EC059E00B5ADED /* MBProgressHUD.m in Sources */,
 				A746B46115EC108600B5ADED /* CalculatorViewController.m in Sources */,
+				A7A23DF015ED53E100A8B86C /* WorkaroundTests.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -677,6 +679,8 @@
 		A7B2BF8315E7679C009E6ED4 /* Coverage */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iphone-calculator/iphone-calculator-Prefix.pch";
 				HEADER_SEARCH_PATHS = "\"${SRCROOT}\"/usr/include/\"/**";
@@ -685,6 +689,7 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/usr/lib\"",
 				);
+				OTHER_CFLAGS = "-DCOVERAGE_LEVEL";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -708,6 +713,7 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/usr/lib\"",
 				);
+				OTHER_CFLAGS = "-DCOVERAGE_LEVEL";
 				OTHER_LDFLAGS = (
 					"-force_load",
 					"\"${SRCROOT}/usr/lib/libOCMock.a\"",
