@@ -649,7 +649,7 @@
 			};
 			name = Release;
 		};
-		A7B2BF8215E7679C009E6ED4 /* Coverage */ = {
+		A7C51C4815FE4BD60012A748 /* Coverage */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -676,11 +676,11 @@
 			};
 			name = Coverage;
 		};
-		A7B2BF8315E7679C009E6ED4 /* Coverage */ = {
+		A7C51C4915FE4BD60012A748 /* Coverage */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
-				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				GCC_GENERATE_TEST_COVERAGE_FILES = NO;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iphone-calculator/iphone-calculator-Prefix.pch";
 				HEADER_SEARCH_PATHS = "\"${SRCROOT}\"/usr/include/\"/**";
@@ -689,13 +689,13 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/usr/lib\"",
 				);
-				OTHER_CFLAGS = "-DCOVERAGE_LEVEL";
+				OTHER_CFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Coverage;
 		};
-		A7B2BF8415E7679C009E6ED4 /* Coverage */ = {
+		A7C51C4A15FE4BD60012A748 /* Coverage */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iphone-calculator.app/iphone-calculator";
@@ -731,7 +731,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A7B2BF7615E76719009E6ED4 /* Debug */,
-				A7B2BF8215E7679C009E6ED4 /* Coverage */,
+				A7C51C4815FE4BD60012A748 /* Coverage */,
 				A7B2BF7715E76719009E6ED4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -741,7 +741,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A7B2BF7915E76719009E6ED4 /* Debug */,
-				A7B2BF8315E7679C009E6ED4 /* Coverage */,
+				A7C51C4915FE4BD60012A748 /* Coverage */,
 				A7B2BF7A15E76719009E6ED4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -751,7 +751,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A7B2BF7C15E76719009E6ED4 /* Debug */,
-				A7B2BF8415E7679C009E6ED4 /* Coverage */,
+				A7C51C4A15FE4BD60012A748 /* Coverage */,
 				A7B2BF7D15E76719009E6ED4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
