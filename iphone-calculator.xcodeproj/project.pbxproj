@@ -590,6 +590,7 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/usr/lib\"",
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -609,6 +610,7 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/usr/lib\"",
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -710,6 +712,7 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/usr/lib\"",
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
