@@ -19,6 +19,7 @@
 		A7687BC115EB4DD200D25C96 /* CalculatorComunicatorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A7687BC015EB4DD200D25C96 /* CalculatorComunicatorTest.m */; };
 		A7687BC615EB4F3300D25C96 /* CalculatorComunicatorAmazon.m in Sources */ = {isa = PBXBuildFile; fileRef = A7687BC515EB4F3300D25C96 /* CalculatorComunicatorAmazon.m */; };
 		A7687BC915EB56BF00D25C96 /* CalculatorComunicatorMock.m in Sources */ = {isa = PBXBuildFile; fileRef = A7687BC815EB56BF00D25C96 /* CalculatorComunicatorMock.m */; };
+		A76996E4177694E8009E9574 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A76996E3177694E8009E9574 /* Default-568h@2x.png */; };
 		A78187D115ECD05800B3F1F5 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A78187C615ECD05800B3F1F5 /* README.md */; };
 		A78187D215ECD05800B3F1F5 /* ci.js in Sources */ = {isa = PBXBuildFile; fileRef = A78187C715ECD05800B3F1F5 /* ci.js */; };
 		A78187D315ECD05800B3F1F5 /* jasmine-main-thread.js in Sources */ = {isa = PBXBuildFile; fileRef = A78187C915ECD05800B3F1F5 /* jasmine-main-thread.js */; };
@@ -78,6 +79,7 @@
 		A7687BC515EB4F3300D25C96 /* CalculatorComunicatorAmazon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorComunicatorAmazon.m; sourceTree = "<group>"; };
 		A7687BC715EB56BF00D25C96 /* CalculatorComunicatorMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorComunicatorMock.h; sourceTree = "<group>"; };
 		A7687BC815EB56BF00D25C96 /* CalculatorComunicatorMock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorComunicatorMock.m; sourceTree = "<group>"; };
+		A76996E3177694E8009E9574 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		A78187C615ECD05800B3F1F5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		A78187C715ECD05800B3F1F5 /* ci.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ci.js; sourceTree = "<group>"; };
 		A78187C915ECD05800B3F1F5 /* jasmine-main-thread.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "jasmine-main-thread.js"; sourceTree = "<group>"; };
@@ -217,6 +219,7 @@
 		A7B2BF3A15E76719009E6ED4 = {
 			isa = PBXGroup;
 			children = (
+				A76996E3177694E8009E9574 /* Default-568h@2x.png */,
 				A7B2BF8615E767E1009E6ED4 /* usr */,
 				A7B2BF4F15E76719009E6ED4 /* iphone-calculator */,
 				A7B2BF6D15E76719009E6ED4 /* iphone-calculatorTests */,
@@ -389,6 +392,11 @@
 			attributes = {
 				LastUpgradeCheck = 0440;
 				ORGANIZATIONNAME = "Angel Garcia Jerez";
+				TargetAttributes = {
+					A7B2BF4415E76719009E6ED4 = {
+						DevelopmentTeam = CXMH2DVBF2;
+					};
+				};
 			};
 			buildConfigurationList = A7B2BF3F15E76719009E6ED4 /* Build configuration list for PBXProject "iphone-calculator" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -415,6 +423,7 @@
 			files = (
 				A7B2BF5415E76719009E6ED4 /* InfoPlist.strings in Resources */,
 				A746B45A15EC0CB900B5ADED /* CalculatorStoryboard.storyboard in Resources */,
+				A76996E4177694E8009E9574 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -570,6 +579,7 @@
 		A7B2BF7915E76719009E6ED4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iphone-calculator/iphone-calculator-Prefix.pch";
 				HEADER_SEARCH_PATHS = "\"${SRCROOT}\"/usr/include/\"/**";
@@ -586,6 +596,7 @@
 		A7B2BF7A15E76719009E6ED4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iphone-calculator/iphone-calculator-Prefix.pch";
 				HEADER_SEARCH_PATHS = "\"${SRCROOT}\"/usr/include/\"/**";
@@ -682,6 +693,7 @@
 		A7C51C4915FE4BD60012A748 /* Coverage */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_GENERATE_TEST_COVERAGE_FILES = NO;
 				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -738,7 +750,7 @@
 				A7B2BF7715E76719009E6ED4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		A7B2BF7815E76719009E6ED4 /* Build configuration list for PBXNativeTarget "iphone-calculator" */ = {
 			isa = XCConfigurationList;
@@ -748,7 +760,7 @@
 				A7B2BF7A15E76719009E6ED4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		A7B2BF7B15E76719009E6ED4 /* Build configuration list for PBXNativeTarget "iphone-calculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -758,7 +770,7 @@
 				A7B2BF7D15E76719009E6ED4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
